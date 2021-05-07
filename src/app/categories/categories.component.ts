@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { Category } from '../category';
+import { CATEGORIES } from '../mock-categories';
 
 @Component({
   selector: 'app-categories',
@@ -9,10 +10,7 @@ import { Category } from '../category';
 })
 
 export class CategoriesComponent implements OnInit {
-  category: Category = {
-    id: 1,
-    title: "Javascript",
-  }
+  categories = CATEGORIES;
   constructor() { }
 
   ngOnInit(): void {
