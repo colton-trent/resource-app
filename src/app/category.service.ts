@@ -10,8 +10,8 @@ import { Resource } from './resource';
 })
 
 export class CategoryService {
-  private categoriesUrl = 'http://localhost:3000/categories';
-  private resourcesUrl = 'http://localhost:3000/resources';
+  private categoriesUrl = 'https://radiant-brushlands-25525.herokuapp.com/categories';
+  private resourcesUrl = 'https://radiant-brushlands-25525.herokuapp.com/resources';
 
   httpOptions = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json'}) 

@@ -1,0 +1,51 @@
+/* HeroesComponent's private CSS styles */
+.categories {
+    width: 500px;
+    list-style: none;
+    justify-content: center;
+  }
+
+  .categories li {
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+  }
+  
+  .categories li:hover {
+    left: .1em;
+  }
+  
+  .categories a {
+    color: #333;
+    text-decoration: none;
+    background-color: #EEE;
+    margin: 1em;
+    padding: 10px;
+    height: 1.6em;
+    border-radius: 4px;
+    display: inline-block
+  }
+  
+  .categories a:hover {
+    color: white;
+    background-color: rgb(5, 78, 75);
+  }
+  
+  .categories a:active {
+    background-color: #525252;
+    color: #fafafa;
+  }
+
+ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  img {
+    height: 30px;
+    width: auto;
+  }
+  
