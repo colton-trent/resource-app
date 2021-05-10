@@ -4,7 +4,7 @@ import { CategoriesComponent } from './categories/categories.component';
 import { ResourcesComponent } from './resources/resources.component'
 
 const routes: Routes = [
-  {path: 'resource/:name', component: ResourcesComponent},
+  {path: 'resource/:id', component: ResourcesComponent},
   {path: '', component: CategoriesComponent}
 ];
 
