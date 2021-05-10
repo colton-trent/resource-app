@@ -10,6 +10,10 @@ import { Category } from './category';
 
 export class CategoryService {
   private categoriesUrl = 'http://localhost:3000/categories';
+
+  httpOptions = {
+    headers: new HttpHeaders({ 'Content-Type': 'application/json'}) 
+   };
   
 
   constructor(
