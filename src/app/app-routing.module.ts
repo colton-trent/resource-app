@@ -5,7 +5,7 @@ import { ResourcesComponent } from './resources/resources.component'
 
 const routes: Routes = [
   {path: 'resource/:id', component: ResourcesComponent},
-  {path: '/index', component: CategoriesComponent}
+  {path: '', component: CategoriesComponent}
 ];
 
 @NgModule({
